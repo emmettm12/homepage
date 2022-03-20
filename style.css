@@ -1,0 +1,63 @@
+@import "cssnormalize.css";
+body{
+ background-image:url("back.jpeg");
+ background-size:cover;
+}
+ul{
+  list-style-type: none;
+  column-span: 1;
+}
+
+.main {
+  color:#F1295A;
+}
+.entertainment{
+  color: #9381FF;
+}
+.fourchan{
+  color:#789922;
+}
+.bits{
+  color:#FFBA08;
+}
+.fun{
+  color:#ADFC92;
+}
+.utilities{
+  color:#56CBF9;
+}
+a:hover{
+  color:#A3EEE6;
+}
+
+a {
+  text-decoration: none;
+  color: #FAEFFD;
+}
+
+
+.textline{
+  color:#FAEFFD;
+  margin:5px;
+  margin-left:  40px;
+}
+
+#container {
+  background: #04466e;
+  float:none;
+  margin: auto;
+  margin-top:20%;
+  font-size: 15px;
+  font-family: monospace, monospace;
+  width:600px;
+  height:300px;
+  border: 6px solid #BB6FA3;
+}
+
+#links{
+  width:100px;
+  height:220px;
+  column-count: 3;
+  column-width: 150px;
+  column-gap: 100px;
+}
